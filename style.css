@@ -242,8 +242,56 @@ nav .nav-box{
     display: flex;
     flex-direction: column;
 }
+.box {
+    border: none;
+    overflow: hidden;
+}
 .container-4 .pic{
     width: 35%;
     height: 80%;
     display: flex;
+}
+.container--5{
+   height: 680px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.container--5 .lift{
+width: 40%;
+height: 100%;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+margin-left: 80px;
+}
+.lift h1{
+    font-size:40px ;
+    margin-bottom: 10px;
+}
+.lift p{
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+.lift button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(1,92,206);
+    color: rgb(1,92,206);
+    background: transparent;
+    transition: all 0.2s ;
+}
+.lift button:hover{
+    background: rgb(1,92,206);
+    color: white;
+
+}
+.container--5 .right{
+    width: 50%;
+    height: 100%;
+    background: url(Img/pic1_section2aa.jpg) no-repeat center ;  
+
 }
