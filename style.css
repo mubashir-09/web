@@ -169,16 +169,18 @@ nav .nav-box{
 .container-2 .img{
     width: 500px;
 }
-.container-2 .content{
+.container-2 .content1{
     width: 500px;
+    margin-left: -200px;
+    margin-top: -100px;
 }
-.container-2 .content h1{
+.container-2 .content1 h1{
     font-size: 40px;
 }
-.container-2 .content p{
+.container-2 .content1 p{
     font-size: 20px;
 }
-.container-2 .content button{
+.container-2 .content1 button{
     font-size: 20px;
     width: 100px;
     height: 40px;
@@ -234,17 +236,27 @@ nav .nav-box{
     justify-content: center;
     align-items: center;
 }
-.container-4 .box{
-    background: transparent;
-    margin-right: 10px;
+.container-4 .box1{
     width: 15%;
     height: 80%;
-    display: flex;
-    flex-direction: column;
 }
-.box {
-    border: none;
-    overflow: hidden;
+.box1 .img1,.img2,.img3{
+    height: 32%;
+    background-color: aquamarine;
+}
+.img1{
+    background:url(Img/category_motorcycle.jpg)no-repeat center ;
+    background-size: cover;
+    margin-bottom:4%;
+}
+.img2{
+    background:url(Img/category_boat.jpg)no-repeat center ;
+    background-size: cover;
+    margin-bottom:5%;
+}
+.img3{
+    background:url(Img/category_bike.jpg)no-repeat center ;
+    background-size: cover;
 }
 .container-4 .pic{
     width: 35%;
@@ -260,7 +272,6 @@ nav .nav-box{
 .container--5 .lift{
 width: 40%;
 height: 100%;
-
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -295,3 +306,166 @@ margin-left: 80px;
     background: url(Img/pic1_section2aa.jpg) no-repeat center ;  
 
 }
+
+.container-6{
+    height: 680px;
+    background-color: rgb(247,247,247);
+    display: flex;
+}
+
+.container-6 .lift{
+    width: 50%;
+    background:url(Img/pic1_section2aaa.jpg)no-repeat center ;
+    background-size: cover;
+    height: 100%;
+}
+
+.container-6 .right{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right div{
+    position: relative;
+    border: 3px solid black;
+    width: 400px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right .mechanical::after{
+    position: absolute;
+    top: 100%;
+    content: "Mechanical Repairs";
+    width: 100%;
+    border: 3px solid black;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top:10px;
+}
+.right .bodywork::after{
+    position: absolute;
+    top: 100%;
+    content: "Mechanical Repairs";
+    width: 100%;
+    border: 3px solid black;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top:10px;
+}
+/* Container--7-- */
+.container-7{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-7 .card{
+    width: 400px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238,240,243);
+    margin-left: 50px;
+}
+.card h1{
+    margin-left: -90px;
+    font-size: 37px;
+    font-weight: 100;
+}
+.card span{
+    width: 80%;
+    height: 3px;
+    background-color: rgb(220,223,227);
+}
+.card h2{
+    margin-left: -280px;
+    font-size: 30px;
+}
+.card h3{
+    margin-left: -190px;
+    margin-top: -20px;
+    font-size: 30px;
+    color:  rgb(188,192,197);
+}
+.card p{
+    text-align: center;
+    margin-right: -140px;
+    margin-bottom: -20px;
+    
+}
+.card button{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(31,113,208);
+    color: white;
+    font-size: 25px;
+}
+/* Container--8-- */
+.container-8{
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-8 .box{
+    background-color: rgb(31,113,208);
+    height: 400px;
+    width: 70%;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.box .img,.content{
+    width: 50%;
+    height: 100%;
+}
+.box .content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: start;
+    padding-left: 40px;
+}
+.content h1{
+    font-size: 40px;
+    color: white;
+
+}
+.content .info{
+    font-size: 20px;
+    margin-top: -50px;
+    background:url(Img/info-1.png)no-repeat center ;
+    width: 100%;
+    height: 50px;  
+    cursor: pointer;  
+
+}
+.content p{
+    font-size: 24px;
+    color: white;
+    line-height: 40px;
+    font-weight: 100;
+}
+.content button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
