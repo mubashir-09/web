@@ -21,6 +21,9 @@ a{
     display: flex;
     justify-content: space-between;
     border-bottom:2px solid black ;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
 }
 
 .box .logo {
@@ -171,7 +174,7 @@ nav .nav-box{
 }
 .container-2 .content1{
     width: 500px;
-    margin-left: -200px;
+    margin-left: 100px;
     margin-top: -100px;
 }
 .container-2 .content1 h1{
@@ -259,6 +262,7 @@ nav .nav-box{
     background-size: cover;
 }
 .container-4 .pic{
+    margin-left: 10px;
     width: 35%;
     height: 80%;
     display: flex;
@@ -413,13 +417,14 @@ margin-left: 80px;
 }
 /* Container--8-- */
 .container-8{
-    height: 1100px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
-.container-8 .box{
+.container-8 .box32{
     background-color: rgb(31,113,208);
     height: 400px;
     width: 70%;
@@ -427,11 +432,11 @@ margin-left: 80px;
     margin-bottom: 40px;
     
 }
-.box .img,.content{
+.box32 .img,.content{
     width: 50%;
     height: 100%;
 }
-.box .content{
+.box32 .content{
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -467,5 +472,80 @@ margin-left: 80px;
     background-color: transparent;
     border-radius: 5px;
 }
+.container-9{
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-9 .icon{
+    width: 200px;
+    height: 100%;
+    margin: 10px;
+}
+.container-10{
+ 
+    background-color: antiquewhite;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-10 .left{
+    width: 50%;
+    height: 100%;
+}
+
+.container-10 .right{
+    border: none;
+    background:url(Img/form.png) no-repeat;
+    background-position: center;
+    background-size: cover;
 
 
+
+    width: 50%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-10 .center{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 50px;
+    position: relative;
+    border: none;
+}
+
+/* container-11 */
+.container-11{
+    height: 100px;
+  background-color:rgb(37,37,37);
+  display: flex;
+  justify-content: space-between;
+}
+.container-11 .l-1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 200px;
+    width: 50%;
+    height: 100%;
+}
+.container-11 .r-2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.r-2 p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}

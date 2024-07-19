@@ -1,0 +1,85 @@
+
+.center .f-name{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+}
+.center .l-name{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 11px;
+    top: 150px;
+    border-radius: 5px;
+    
+}
+.center .email{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 236px;
+}
+.center .sub{
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    right: 11px;
+    top: 236px;
+    border-radius: 5px;
+    
+}
+.center .msg{
+    width: 830px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 325px;
+    border-radius: 5px;
+}
+.center .contact-btn{
+    width: 120px;
+    height: 51px;
+    background-color: rgb(28,101,187);
+    color: white;
+    position: absolute;
+    left: 390px;
+    top: 415px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.center .contact-btn:hover{
+    background-color: rgb(21, 78, 143);
+}
+.center input::placeholder{
+    color: transparent;
+}
+.center .msg:focus{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.msg:focus, .f-name:focus, .l-name:focus, .email:focus, .sub:focus  {
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+  
